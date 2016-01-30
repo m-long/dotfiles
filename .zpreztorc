@@ -130,8 +130,8 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'main' \
   'brackets' \
   'pattern' \
-  'cursor' \
   'root'
+#  'cursor' \ (issue with cursor disappearing)
 #
 # Set syntax highlighting styles.
 zstyle ':prezto:module:syntax-highlighting' styles \
@@ -164,3 +164,13 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+
+#
+# Aliases
+#
+
+# cevite
+alias sshcev='ssh matt@159.203.245.7'
+
+# dev
+alias dev='ssh matt@dev.mattlong.la'
