@@ -164,3 +164,9 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+
+# Aliases
+#
+
+# Dev
+alias dev-test='rails server -b dev.mattlong.la -p 3000'
