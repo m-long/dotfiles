@@ -1,14 +1,3 @@
-" This is my personal vimrc file. It is constantly changing as I perfect my
-" workflow and grow as a developer.
-"
-" If you find any obvious (or not so obvious errors), please contact me.
-"
-" System
-" Lubuntu 15.04
-" Intel Core U1400 @1.20GHz
-" 1 GB RAM
-" 120 GB HDD
-
 "---------------------------
 " Basic Config
 
@@ -49,4 +38,4 @@ syntax on
 
 "---------------------------
 " Styling
-colorscheme default
+" colorscheme default

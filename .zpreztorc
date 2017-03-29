@@ -1,9 +1,4 @@
-#
 # Sets Prezto options.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
 
 #
 # General
@@ -168,14 +163,3 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 #
 # Aliases
 #
-
-# dev-test (remote only)
-alias dev-test='rails server -b dev.mattlong.la -p 3000'
-
-# SSH Aliases
-
-# cevite (local only)
-alias sshcev='ssh matt@159.203.245.7'
-
-# dev (local only)
-alias dev='ssh matt@dev.mattlong.la'
